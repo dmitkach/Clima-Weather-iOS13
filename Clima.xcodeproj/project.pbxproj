@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8FBA1F7B249CEB3B004F5CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA1F7A249CEB3B004F5CBF /* AppDelegate.swift */; };
 		8FBA1F7D249CEB3B004F5CBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA1F7C249CEB3B004F5CBF /* SceneDelegate.swift */; };
-		8FBA1F7F249CEB3B004F5CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA1F7E249CEB3B004F5CBF /* ViewController.swift */; };
+		8FBA1F7F249CEB3B004F5CBF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA1F7E249CEB3B004F5CBF /* WeatherViewController.swift */; };
 		8FBA1F82249CEB3B004F5CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA1F80249CEB3B004F5CBF /* Main.storyboard */; };
 		8FBA1F84249CEB3C004F5CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA1F83249CEB3C004F5CBF /* Assets.xcassets */; };
 		8FBA1F87249CEB3C004F5CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA1F85249CEB3C004F5CBF /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		8FBA1F77249CEB3B004F5CBF /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBA1F7A249CEB3B004F5CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBA1F7C249CEB3B004F5CBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FBA1F7E249CEB3B004F5CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FBA1F7E249CEB3B004F5CBF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		8FBA1F81249CEB3B004F5CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FBA1F83249CEB3C004F5CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBA1F86249CEB3C004F5CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +58,37 @@
 			children = (
 				8FBA1F7A249CEB3B004F5CBF /* AppDelegate.swift */,
 				8FBA1F7C249CEB3B004F5CBF /* SceneDelegate.swift */,
-				8FBA1F7E249CEB3B004F5CBF /* ViewController.swift */,
-				8FBA1F80249CEB3B004F5CBF /* Main.storyboard */,
+				8FBA1F90249CEC01004F5CBF /* Model */,
+				8FBA1F8F249CEBF7004F5CBF /* View */,
+				8FBA1F8E249CEBE5004F5CBF /* Controller */,
 				8FBA1F83249CEB3C004F5CBF /* Assets.xcassets */,
 				8FBA1F85249CEB3C004F5CBF /* LaunchScreen.storyboard */,
 				8FBA1F88249CEB3C004F5CBF /* Info.plist */,
 			);
 			path = Clima;
+			sourceTree = "<group>";
+		};
+		8FBA1F8E249CEBE5004F5CBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA1F7E249CEB3B004F5CBF /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FBA1F8F249CEBF7004F5CBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA1F80249CEB3B004F5CBF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FBA1F90249CEC01004F5CBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FBA1F7F249CEB3B004F5CBF /* ViewController.swift in Sources */,
+				8FBA1F7F249CEB3B004F5CBF /* WeatherViewController.swift in Sources */,
 				8FBA1F7B249CEB3B004F5CBF /* AppDelegate.swift in Sources */,
 				8FBA1F7D249CEB3B004F5CBF /* SceneDelegate.swift in Sources */,
 			);
