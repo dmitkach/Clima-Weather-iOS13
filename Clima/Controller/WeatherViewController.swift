@@ -24,11 +24,12 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func searchPressed(_ sender: UIButton) {
-        view.endEditing(true)
+        searchTextField.endEditing(true)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField.text != "" {
+            textField.endEditing(true)
             return true
         } else {
             return false
@@ -40,7 +41,6 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         if let city = textField.text {
             weatherManager.fetchWeather(cityName: city)
         }
-        textField.endEditing(true)
     }
 }
 
