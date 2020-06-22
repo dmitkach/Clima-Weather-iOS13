@@ -13,6 +13,7 @@
 		8FBA1F82249CEB3B004F5CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA1F80249CEB3B004F5CBF /* Main.storyboard */; };
 		8FBA1F84249CEB3C004F5CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA1F83249CEB3C004F5CBF /* Assets.xcassets */; };
 		8FBA1F87249CEB3C004F5CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA1F85249CEB3C004F5CBF /* LaunchScreen.storyboard */; };
+		8FCE927724A0FF7000598421 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE927624A0FF7000598421 /* WeatherData.swift */; };
 		8FD8F22C249D188D004A3553 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8F22B249D188D004A3553 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		8FBA1F83249CEB3C004F5CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBA1F86249CEB3C004F5CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBA1F88249CEB3C004F5CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCE927624A0FF7000598421 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		8FD8F22B249D188D004A3553 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				8FD8F22B249D188D004A3553 /* WeatherManager.swift */,
+				8FCE927624A0FF7000598421 /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FBA1F7F249CEB3B004F5CBF /* WeatherViewController.swift in Sources */,
+				8FCE927724A0FF7000598421 /* WeatherData.swift in Sources */,
 				8FBA1F7B249CEB3B004F5CBF /* AppDelegate.swift in Sources */,
 				8FD8F22C249D188D004A3553 /* WeatherManager.swift in Sources */,
 				8FBA1F7D249CEB3B004F5CBF /* SceneDelegate.swift in Sources */,
@@ -313,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = KQC4N36836;
 				INFOPLIST_FILE = Clima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = KQC4N36836;
 				INFOPLIST_FILE = Clima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
