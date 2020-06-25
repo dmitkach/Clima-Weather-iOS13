@@ -79,10 +79,13 @@ extension WeatherViewController: CLLocationManagerDelegate {
     
     @IBAction func locatePressed(_ sender: UIButton) {
         locationManager.requestLocation()
+        searchTextField.text = ""
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
+            locationManager.stopUpdatingLocation()
+            
             let lat = location.coordinate.latitude
             let lon = location.coordinate.longitude
             
